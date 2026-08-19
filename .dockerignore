@@ -5,3 +5,5 @@ apps/dashboard/.nuxt
 apps/dashboard/.output
 **/.DS_Store
 *.log
+
+.block-backups/
