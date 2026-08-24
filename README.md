@@ -8,7 +8,7 @@ Dieses Repository dokumentiert den Aufbau von **Dispatch City ab Block 03**. Der
 ## Releases
 
 - `v1.0.0`: Block 03 – Foundation mit Deployments, Services und ConfigMaps
-- `v1.1.1`: Block 04 – Ingress, Traefik, zwei Dashboard-Replikas und Self-Healing
+- `v1.0.4`: Block 04 – Ingress, Traefik, zwei Dashboard-Replikas und Self-Healing
 
 ## Voraussetzungen
 
@@ -143,7 +143,7 @@ kubectl -n food-delivery logs deployment/control-api
 
 ## Was umgesetzt wurde
 
-- Block-4-Erweiterung `v1.1.1` integriert
+- Block-4-Erweiterung `v1.0.4` integriert
 - Ingress `food-delivery` mit Ingress-Klasse `traefik` erstellt
 - Dashboard auf zwei Replikas skaliert
 - gemeinsames Path Routing eingerichtet
@@ -357,8 +357,8 @@ git push origin v1.0.0
 Block 04 markieren:
 
 ```powershell
-git tag -a v1.1.1 -m "Block 04 ingress release v1.1.1"
-git push origin v1.1.1
+git tag -a v1.0.4 -m "Block 04 ingress release v1.0.4"
+git push origin v1.0.4
 ```
 
 # Aufräumen
